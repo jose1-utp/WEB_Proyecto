@@ -1,61 +1,70 @@
-# 🍕 Sistema de Pedido de Comidas de una Pizzeria
+# 📘 RedBlog – Plataforma de Publicaciones Interactivas
 
-![Imagen de WhatsApp 2025-10-15 a las 20 17 46_743e3c1b](https://github.com/user-attachments/assets/45335b72-9b84-4560-9db4-34de0cfbb82f)
-
-## 📋 Descripción general
-El *Sistema de Pedido de Comidas* es una aplicación web diseñada para digitalizar el proceso de pedidos de la pizzeria **Pizza Express**.
-
-Permite a los clientes visualizar el menú, seleccionar productos, realizar pedidos personalizados, registrar su dirección y efectuar pagos en línea.  
-Además, ofrece herramientas para que el personal del restaurante gestione los pedidos, organice la producción en cocina y visualice los productos más vendidos.
-
-Inspirado en plataformas como la app de Dominos, este sistema busca brindar una experiencia moderna, intuitiva y eficiente tanto para los clientes como para el negocio.
+## 📝 Descripción General
+**RedBlog** es una aplicación web desarrollada con el stack **MERN (MongoDB, Express.js, React, Node.js)** inspirada en plataformas como **Reddit**.  
+Su propósito es permitir a los usuarios compartir publicaciones, comentar y reaccionar a contenidos, mientras que los administradores gestionan la comunidad y los visitantes pueden explorar publicaciones de manera limitada.
 
 ---
 
-## 🎯 Objetivos del proyecto
-
-### *Objetivo general*
-Desarrollar una plataforma web que optimice la gestión de pedidos en **Pizza Express**, mejorando la experiencia del usuario y la eficiencia operativa del negocio.
-
-### *Objetivos específicos*
-- Implementar una interfaz sencilla e intuitiva para realizar pedidos en línea.  
-- Permitir la personalización de los productos seleccionados.  
-- Integrar un sistema de pago electrónico seguro.  
-- Automatizar la gestión interna de pedidos y entregas.  
+## 🎯 Objetivos
+- Implementar un sistema de publicaciones tipo blog comunitario.  
+- Ofrecer diferentes experiencias según el rol: visitante, usuario registrado y administrador.  
+- Practicar conceptos de **autenticación, autorización y manejo de roles** en aplicaciones web modernas.  
+- Aplicar arquitectura **full-stack MERN**.
 
 ---
 
-## ⚙ Funcionalidades principales
+## 👥 Roles y Vistas
 
-- 📜 **Visualización del menú digital** con precios e imágenes de productos.  
-- 🛒 **Selección y personalización de productos** antes de agregar al carrito.  
-- 📦 **Gestión de pedidos**: creación, confirmación y almacenamiento.  
-- 🚚 **Ingreso de dirección** para envío a domicilio.  
-- 💳 **Sistema de pago** en línea (integración con pasarelas de pago).  
-- 📈 **Estadísticas de ventas** y visualización de los productos más vendidos.  
-- 👨‍🍳 **Panel de cocina** para organizar los pedidos en tiempo real.  
-- 🔔 **Notificaciones internas** para empleados del restaurante.
+### 🔹 Visitante (no autenticado)
+- Puede **navegar publicaciones públicas**.  
+- Puede **ver comentarios**.  
+- Puede **registrarse o iniciar sesión**.  
+- Acceso limitado (no puede crear publicaciones ni comentar).
 
----
+### 🔹 Usuario (autenticado)
+- Puede **crear publicaciones** (texto, imágenes, links).  
+- Puede **comentar y reaccionar** a publicaciones.  
+- Puede **editar o eliminar sus publicaciones y comentarios**.  
+- Acceso a un **perfil personal** con su información básica.
 
-## 🧩 Tecnologías utilizadas
-
-- **Lenguaje de programación:** Java (backend) / HTML, CSS y JavaScript (frontend)  
-- **Frameworks:** Spring Boot / React   
-- **Base de datos:** MySQL  
-- **Control de versiones:** Git + GitHub  
-- **Modelado:** UML (diagramas de clases, casos de uso y flujo)  
-- **Metodología:** Scrum (4 sprints de 2 semanas cada uno)
+### 🔹 Administrador
+- Puede **gestionar usuarios** (activar/desactivar cuentas).  
+- Puede **moderar publicaciones y comentarios** (eliminarlos si infringen normas).  
+- Tiene un **panel de control** para estadísticas básicas de la plataforma.
 
 ---
 
+## ⚙️ Tecnologías
+- **Frontend:** PHP  
+- **Backend:** PHP
+- **Base de Datos:** XAMPP Y SQL
+- **Autenticación:** JWT (JSON Web Tokens)  
+- **Control de Roles:** Middleware en Express  
+
+---
+
+## 📂 Funcionalidades Clave
+1. **Autenticación y autorización** con roles (usuario, administrador).  
+2. **CRUD de publicaciones y comentarios**.  
+3. **Reacciones a publicaciones** (likes, dislikes).  
+4. **Panel de administración** para gestión de usuarios y moderación.  
+5. **Interfaz diferenciada** según el rol del usuario.
+
+---
+
+## 🔮 Posibles Extensiones Futuras
+- Sistema de notificaciones.  
+- Subcomunidades temáticas (subreddits).  
+- Buscador avanzado por etiquetas o categorías.
+- 
 ## 👨‍💻 Integrantes del equipo
 
 | Nombre | Correo |
 |--------|--------|
 | Jose Manuel Orozco Bernal | jose.orozco1@utp.edu.co |
 | Sergio González Torres | sergio.gonzalez2@utp.edu.co |
-
+| Yefrid Javier Quiñonez | |
 ---
 
 
