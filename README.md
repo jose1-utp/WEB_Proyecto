@@ -36,12 +36,10 @@ Su propósito es permitir a los usuarios compartir publicaciones, comentar y rea
 ---
 
 ## ⚙️ Tecnologías
-- **Frontend:** PHP  
+- **Frontend:** PHP + css
 - **Backend:** PHP
-- **Base de Datos:** XAMPP Y SQL
-- **Autenticación:** JWT (JSON Web Tokens)  
-- **Control de Roles:** Middleware en Express  
-
+- **Base de Datos:** XAMPP + SQL
+- 
 ---
 
 ## 📂 Funcionalidades Clave
