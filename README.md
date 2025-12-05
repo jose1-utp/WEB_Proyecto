@@ -62,7 +62,7 @@ Su propósito es permitir a los usuarios compartir publicaciones, comentar y rea
 |--------|--------|
 | Jose Manuel Orozco Bernal | jose.orozco1@utp.edu.co |
 | Sergio González Torres | sergio.gonzalez2@utp.edu.co |
-| Yefrid Javier Quiñonez | |
+| Yefrid Javier Quiñonez | y.quinonez@utp.edu.co |
 ---
 
 
